@@ -32,4 +32,5 @@ async def tts(ctx, *, payload):
     print(f"removing file {randfile}")
     os.remove(randfile)
 
+#Replace "INSERT TOKEN HERE" with your Discord bot token
 client.run("INSERT TOKEN HERE")
