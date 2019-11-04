@@ -32,4 +32,4 @@ async def tts(ctx, *, payload):
     print(f"removing file {randfile}")
     os.remove(randfile)
 
-client.run("NjQwNjkxMDY2NDgzNTA3MjAx.Xb9hjQ.Dhgzz_q0YA4oRo4wX4fidxgzF4Q")
+client.run("INSERT TOKEN HERE")
