@@ -1,8 +1,7 @@
 import discord, requests, random, os
 from discord.ext import commands
-from playsound import playsound
-
-#NOTE PLAYSOUND MODULE DOES NOT WORK ON RASPBIAN. If you want to run this on a Raspberry Pi, you'll have to replace playsound. Use PyGame or pydub (from pydub import AudioSegment\n from pydub.playback import play)
+from pydub import AudioSegment
+from pydub.playback import play
 
 client = commands.Bot(command_prefix="!brian")
 
